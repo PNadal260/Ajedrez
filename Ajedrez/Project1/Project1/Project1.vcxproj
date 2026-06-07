@@ -135,6 +135,7 @@
   <ItemGroup>
     <ClInclude Include="..\..\bishop.h" />
     <ClInclude Include="..\..\board.h" />
+    <ClInclude Include="..\..\constants.h" />
     <ClInclude Include="..\..\horse.h" />
     <ClInclude Include="..\..\king.h" />
     <ClInclude Include="..\..\pawn.h" />

@@ -89,11 +89,13 @@ void showChessBoard(char chessBoard[BOARD][BOARD])
 	// Files de la 8 a la 1
 	for (int height = 0; height < BOARD; height++)
 	{
-		std::cout << (BOARD - height) << " "; 
+		std::cout << (height + 1) << " ";
+
 		for (int width = 0; width < BOARD; width++)
 		{
 			std::cout << chessBoard[height][width] << " ";
 		}
+
 		std::cout << "\n";
 	}
 }
