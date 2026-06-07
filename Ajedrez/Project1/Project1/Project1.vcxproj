@@ -134,7 +134,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\bishop.h" />
+    <ClInclude Include="..\..\board.h" />
+    <ClInclude Include="..\..\horse.h" />
     <ClInclude Include="..\..\king.h" />
+    <ClInclude Include="..\..\pawn.h" />
     <ClInclude Include="..\..\pieceColor.h" />
     <ClInclude Include="..\..\queen.h" />
     <ClInclude Include="..\..\rook.h" />
